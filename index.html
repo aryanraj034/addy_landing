@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link href="https://fonts.cdnfonts.com/css/space-grotesk" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Hero Section -->
     <section class="hero">
@@ -29,8 +31,8 @@
                     <br>Without the Machine
                 </h1>
                 <p class="hero-subtitle">
-                    Describe your idea in plain English. Watch as Addy finds data, 
-                    writes code, trains models, and deploys them to production. 
+                    Describe your idea in plain English. Watch as Addy finds data,
+                    writes code, trains models, and deploys them to production.
                     <br><br>
                     <strong>No configuration. No coding. No waiting.</strong>
                 </p>
@@ -44,12 +46,35 @@
                     <div class="card-header">
                         <div class="status-dot"></div>
                         <span>Addy is thinking...</span>
+
+
                     </div>
-                    <div class="thinking-animation">
-                        <div class="thought-bubble"></div>
-                        <div class="thought-bubble"></div>
-                        <div class="thought-bubble"></div>
+                    <div class="card-header">
+                        <div class="status-dot"></div>
+                        <span>Getting the Dataset...</span>
+
                     </div>
+                    <div class="card-header">
+                        <div class="status-dot"></div>
+                        <span>Generating the main.py...</span>
+
+                    </div>
+                    <div class="card-header">
+                        <div class="status-dot"></div>
+                        <span>Starting the Notebook...</span>
+
+                    </div>
+                    <div class="card-header">
+                        <div class="status-dot"></div>
+                        <span>Epoch 4/10...</span>
+                        <div class="thinking-animation">
+                            <div class="thought-bubble"></div>
+                            <div class="thought-bubble"></div>
+                            <div class="thought-bubble"></div>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -65,7 +90,7 @@
     <section id="story" class="story-section">
         <div class="container">
             <h2 class="section-title">The Problem We Solved</h2>
-            
+
             <div class="story-timeline">
                 <div class="timeline-item" data-aos="fade-right">
                     <div class="timeline-content glass">
@@ -156,7 +181,8 @@
                             <div class="neural-connection"></div>
                         </div>
                     </div>
-                    <p>Addy analyzes your description using advanced language models to understand what you're trying to build</p>
+                    <p>Addy analyzes your description using advanced language models to understand what you're trying to
+                        build</p>
                 </div>
 
                 <div class="workflow-card glass" data-aos="zoom-in" data-aos-delay="100">
@@ -171,7 +197,8 @@
                             <div class="data-point"></div>
                         </div>
                     </div>
-                    <p>Searches thousands of datasets across Kaggle and HuggingFace, scoring and selecting the best match</p>
+                    <p>Searches thousands of datasets across Kaggle and HuggingFace, scoring and selecting the best
+                        match</p>
                 </div>
 
                 <div class="workflow-card glass" data-aos="zoom-in" data-aos-delay="200">
@@ -242,27 +269,30 @@
                         <div class="message assistant">
                             <div class="message-avatar">A</div>
                             <div class="message-content glass">
-                                <p>Hello! I'm Addy, your automated ML engineer. Describe what you'd like to build, and I'll handle everything from finding data to deploying your model.</p>
+                                <p>Hello! I'm Addy, your automated ML engineer. Describe what you'd like to build, and
+                                    I'll handle everything from finding data to deploying your model.</p>
                                 <div class="suggestions">
-                                    <button class="suggestion-chip" onclick="sendSuggestion('Predict house prices from property features')">Predict house prices</button>
-                                    <button class="suggestion-chip" onclick="sendSuggestion('Classify customer reviews as positive or negative')">Sentiment analysis</button>
-                                    <button class="suggestion-chip" onclick="sendSuggestion('Detect fraud in credit card transactions')">Fraud detection</button>
+                                    <button class="suggestion-chip"
+                                        onclick="sendSuggestion('Predict house prices from property features')">Predict
+                                        house prices</button>
+                                    <button class="suggestion-chip"
+                                        onclick="sendSuggestion('Classify customer reviews as positive or negative')">Sentiment
+                                        analysis</button>
+                                    <button class="suggestion-chip"
+                                        onclick="sendSuggestion('Detect fraud in credit card transactions')">Fraud
+                                        detection</button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="chat-input-container">
-                        <input 
-                            type="text" 
-                            id="chatInput" 
-                            class="chat-input glass" 
-                            placeholder="Describe your ML idea in plain English..."
-                            onkeypress="handleKeyPress(event)"
-                        >
+                        <input type="text" id="chatInput" class="chat-input glass"
+                            placeholder="Describe your ML idea in plain English..." onkeypress="handleKeyPress(event)">
                         <button class="send-button" onclick="sendMessage()">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </button>
                     </div>
@@ -337,7 +367,8 @@
                         <div class="icon-visual chat-icon"></div>
                     </div>
                     <h3>Natural Language Interface</h3>
-                    <p>No technical jargon. Just describe what you want in plain English and let Addy translate it into working ML systems</p>
+                    <p>No technical jargon. Just describe what you want in plain English and let Addy translate it into
+                        working ML systems</p>
                 </div>
 
                 <div class="feature-card glass" data-aos="fade-up" data-aos-delay="100">
@@ -345,7 +376,8 @@
                         <div class="icon-visual auto-icon"></div>
                     </div>
                     <h3>Fully Autonomous</h3>
-                    <p>From dataset discovery to deployment, every step happens automatically. No configuration files, no setup, no maintenance</p>
+                    <p>From dataset discovery to deployment, every step happens automatically. No configuration files,
+                        no setup, no maintenance</p>
                 </div>
 
                 <div class="feature-card glass" data-aos="fade-up" data-aos-delay="200">
@@ -353,7 +385,8 @@
                         <div class="icon-visual cloud-icon"></div>
                     </div>
                     <h3>Cloud Native</h3>
-                    <p>Training happens on powerful cloud GPUs. Your model deploys to production-grade endpoints automatically</p>
+                    <p>Training happens on powerful cloud GPUs. Your model deploys to production-grade endpoints
+                        automatically</p>
                 </div>
 
                 <div class="feature-card glass" data-aos="fade-up" data-aos-delay="300">
@@ -361,7 +394,8 @@
                         <div class="icon-visual real-time-icon"></div>
                     </div>
                     <h3>Real-Time Progress</h3>
-                    <p>Watch every step unfold live. See your model improve epoch by epoch with streaming metrics and visualizations</p>
+                    <p>Watch every step unfold live. See your model improve epoch by epoch with streaming metrics and
+                        visualizations</p>
                 </div>
 
                 <div class="feature-card glass" data-aos="fade-up" data-aos-delay="400">
@@ -369,7 +403,8 @@
                         <div class="icon-visual instant-icon"></div>
                     </div>
                     <h3>Minutes Not Days</h3>
-                    <p>What used to take days of work now completes in minutes. Get from idea to deployed model faster than ever</p>
+                    <p>What used to take days of work now completes in minutes. Get from idea to deployed model faster
+                        than ever</p>
                 </div>
 
                 <div class="feature-card glass" data-aos="fade-up" data-aos-delay="500">
@@ -377,7 +412,8 @@
                         <div class="icon-visual api-icon"></div>
                     </div>
                     <h3>Production Ready</h3>
-                    <p>Every model comes with a REST API, documentation, and client code examples. Ready to integrate immediately</p>
+                    <p>Every model comes with a REST API, documentation, and client code examples. Ready to integrate
+                        immediately</p>
                 </div>
             </div>
         </div>
@@ -424,25 +460,20 @@
                 <h2>Be Among The First</h2>
                 <p>Addy 1.0 is launching soon. Join the waitlist to get early access and exclusive launch benefits.</p>
                 <form class="waitlist-form" onsubmit="handleWaitlist(event)">
-                    <input 
-                        type="email" 
-                        placeholder="Enter your email" 
-                        required
-                        class="waitlist-input glass"
-                    >
+                    <input type="email" placeholder="Enter your email" required class="waitlist-input glass">
                     <button type="submit" class="primary-button">Join Waitlist</button>
                 </form>
                 <div class="waitlist-stats">
                     <div class="stat">
-                        <div class="stat-number">1,247</div>
+                        <div class="stat-number">341</div>
                         <div class="stat-label">People waiting</div>
                     </div>
                     <div class="stat">
-                        <div class="stat-number">3 min</div>
+                        <div class="stat-number">20 min</div>
                         <div class="stat-label">Average training time</div>
                     </div>
                     <div class="stat">
-                        <div class="stat-number">94%</div>
+                        <div class="stat-number">90%</div>
                         <div class="stat-label">Success rate</div>
                     </div>
                 </div>
@@ -473,4 +504,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
